@@ -1,2 +1,8 @@
-# Entrega_Final_Front-End_25228
-Proyecto entrega final para la comisión 2528 de Talento Tech.
+👋 Bienvenido, este repositorio esta creado para la pre entrega de la comision 25228 del curso Front-End JS, en el cual se estaran incorporado las siguentes consignas:
+
+Estructura basica en HTML.
+Estructura semántica.
+Estilos Básicos Aplicados con CSS.
+Formulario de Contacto.
+Contenido Multimedia y Navegación.
+Formulario con validaciones de datos utilizando JavaScript.
