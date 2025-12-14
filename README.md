@@ -1,6 +1,6 @@
 <!-- ──────────────────────────────────────────────────────────────── -->
 <h2 align="center"> 👋 Bienvenido,
-este repositorio esta creado para la pre entrega de la comision 25228 del curso Front-End JS, en el cual se estaran incorporado las siguentes consignas:</h2>
+este repositorio esta creado para la entrega final de la comision 25228 del curso Front-End JS, en el cual se estaran incorporado las siguentes consignas:</h2>
 <!-- ──────────────────────────────────────────────────────────────── -->
 
 ### Estructura basica en HTML.
