@@ -1,0 +1,285 @@
+/*FUENTE*/
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, Verdana, Tahoma, sans-serif;
+  background-color: #fff;
+  color: #222;
+  line-height: 1.4;
+}
+
+/*HEADER*/
+.logo-container {
+  text-align: center;
+  background-color: rgb(247, 247, 248);
+  padding: clamp(8px, 4vw, 24px);
+}
+
+.logo-img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+}
+
+.menu {
+  background-color: #f8f8f8f1;
+}
+
+.lista-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 12px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(19, 82, 165);
+  font-size: clamp(20px, 5vw, 40px);
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: rgb(9, 40, 90);
+}
+
+/*BIENV*/
+.bienvenida {
+  background-color: #c7e9bc81;
+  text-align: center;
+  font-family: 'Alan Sans', Verdana, sans-serif;
+  font-size: clamp(20px, 5vw, 40px);
+  padding: clamp(16px, 5vw, 48px);
+  margin-block: 32px;
+}
+
+/*PRODUC*/
+.productos {
+  background-color: #ffffff81;
+  font-family: 'Bricolage Grotesque', Verdana, sans-serif;
+  padding: clamp(16px, 5vw, 48px);
+  margin-block: 32px;
+}
+
+.tit-prod {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: clamp(24px, 5vw, 40px);
+}
+
+.prod-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.prod-item {
+  border: 2px solid rgb(64, 64, 163);
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 320px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.item-tit {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.imagen-card {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.precio {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.off {
+  color: green;
+}
+
+.descripcion {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.btn-agregar {
+  background-color: #eb0e0e;
+  color: antiquewhite;
+  font-size: 18px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-agregar:hover {
+  background-color: #050505;
+}
+
+/*SERVICIOS*/
+.servicios {
+  background-color: #9bce59b7;
+  text-align: center;
+  font-family: Montserrat, Verdana, sans-serif;
+  font-size: clamp(20px, 5vw, 40px);
+  padding: clamp(16px, 5vw, 48px);
+  margin-block: 32px;
+}
+
+/* CONTACTO FORM */
+
+.contacto {
+  background-color: #bdad9d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
+  padding: clamp(16px, 5vw, 48px);
+  margin-block: 32px;
+  color: #222;
+}
+
+.tit-contacto {
+  font-size: clamp(24px, 6vw, 48px);
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.subtit-contacto {
+  font-size: clamp(16px, 4vw, 24px);
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.formulario {
+  background-color: #fff;
+  font-size: 16px;
+  border: 2px solid rgb(0, 139, 19);
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  padding: 16px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  color: rgb(30, 139, 0);
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgb(30, 139, 0);
+  padding: 4px;
+  outline: none;
+}
+
+textarea {
+  border: 1px solid rgb(30, 139, 0);
+  border-radius: 4px;
+  resize: vertical;
+  min-height: 80px;
+  padding: 6px;
+}
+
+.btn-enviar {
+  background-color: rgb(13, 9, 230);
+  color: #f7f8f8;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-enviar:hover {
+  background-color: #050505;
+}
+
+#mensajesValidacion {
+  margin-top: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#mensajesValidacion p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+/* Opcional: resaltar inputs con error */
+.input-error {
+  border-bottom: 2px solid red;
+}
+
+.input-ok {
+  border-bottom: 2px solid green;
+}
+
+/*FOOTER*/
+
+.footer {
+  background-color: #ccc8c8;
+  color: #fff;
+  text-align: center;
+  padding: clamp(32px, 5vw, 80px) 20px;
+  width: 100%;
+}
+
+.footer-map {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: auto;
+}
+
+.footer-redes {
+  color: rgb(253, 248, 248);
+  width: 100%;
+  margin: 32px auto;
+  padding: 0;
+}
+
+/* Media Qrs */
+@media (max-width: 768px) {
+  .lista-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .prod-item {
+    max-width: 90%;
+  }
+
+  .btn-agregar {
+    font-size: 16px;
+  }
+
+  .footer-redes {
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
